@@ -11,10 +11,10 @@ const Product = (props) => {
       <img src={productImage} />
       <div className='description'>
         <p><b>{productName}</b></p>
-        <p>£{price}</p>
+        <p style={{fontSize:"20px"}}>£{price}</p>
       </div>
       <button className='addToCartBtn'onClick={()=> addToCart(id)}>
-        Add to Cart {cartItemAmount > 0 && <> ({cartItemAmount})</>}
+        Add to Basket {cartItemAmount > 0 && <> ({cartItemAmount})</>}
         </button>
     </div>
   )

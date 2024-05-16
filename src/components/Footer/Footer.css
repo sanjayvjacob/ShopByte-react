@@ -1,0 +1,16 @@
+.footer {
+  background-color: #111;
+  color: white;
+}
+
+.footer * {
+  color: white;
+}
+
+.footer a:hover {
+  color: lightgray;
+}
+
+.footer li {
+  color: white;
+}

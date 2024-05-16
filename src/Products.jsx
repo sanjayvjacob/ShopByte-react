@@ -53,13 +53,13 @@ const Products = [
     id: 7,
     productName: "Marshall Woburn III Bluetooth Speaker, Wireless - Black ",
     price: 518,
-    productImage: ecodotImg
+    productImage: speakerImg
   },
   {
     id: 8,
     productName: "Echo Dot (5th generation, 2022 release) | Wi-Fi and Bluetooth smart speaker",
     price: 54,
-    productImage: speakerImg
+    productImage: ecodotImg
   },
   {
     id: 9,

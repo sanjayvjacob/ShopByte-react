@@ -4,6 +4,7 @@ import ShopContextProvider from './context/shop-context'
 import Shop from "./pages/Shop/Shop"
 import Cart from "./pages/Cart/Cart"
 import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' exact element={<Shop/>}/>
           <Route path='/cart' exact element={<Cart/>}/>
         </Routes>
+        <Footer/>
       </Router>
       </ShopContextProvider>
     </div>

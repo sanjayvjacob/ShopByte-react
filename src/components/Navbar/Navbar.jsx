@@ -9,8 +9,8 @@ const Navbar = () => {
     <div className='navbar'>
       <h1 className='shopTitle'>ShopByte</h1>
         <div className="searchBar">
-    <form class="d-flex" role="search">
-      <input className="searchInput" type="search" placeholder="Search ShopByte.co.uk" aria-label="Search"/>
+    <form className="d-flex" role="search">
+      <input className="searchInput" type="search" placeholder="  Search ShopByte.co.uk" aria-label="Search"/>
       <button className="searchBtn" type="submit"><SearchIcon style={{ fontSize: '2rem' }}/></button>
     </form>
   </div>
