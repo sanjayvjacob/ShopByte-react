@@ -6,7 +6,6 @@ import "./Shop.css"
 const Shop = () => {
   return (
     <div className='shop'>
-      <div className='shopTitle'><h1>ShopByte</h1></div>
       <div className='products'>
         {Products.map((product, index)=>{
           return <Product key={index} data={product}/>
