@@ -4,7 +4,7 @@ import Slider from '@mui/material/Slider';
 import "./Filter.css"
 
 const Filter = ({ priceRange, handleChange }) => {
-  const brands = ['Apple', 'Sony', 'Logitech', 'Samsung', 'Dell', 'Marshall', 'Keychron'];
+  const brands = ['Apple', 'Sony', 'Logitech', 'Samsung', 'Dell', 'Marshall', 'Keychron', 'GoPro'];
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [value, setValue] = useState(2);
 

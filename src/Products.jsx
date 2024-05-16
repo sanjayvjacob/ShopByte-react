@@ -11,6 +11,9 @@ import kindleImg from "./assets/kindle.png"
 import mouseImg from "./assets/mouse.png"
 import keyboardImg from "./assets/keyboard.png"
 import ssdImg from "./assets/ssd.png"
+import ps5Img from "./assets/ps5.png"
+import maxImg from "./assets/max.png"
+import goproImg from "./assets/gopro.png"
 
 const Products = [
   {
@@ -84,6 +87,24 @@ const Products = [
     productName: "Keychron K2 Hot-swappable Wireless Bluetooth/USB Wired Gaming Mechanical Keyboard",
     price: 159,
     productImage: keyboardImg
+  },
+  {
+    id: 13,
+    productName: "PlayStation 5 Console (Slim)",
+    price: 477,
+    productImage: ps5Img
+  },
+  {
+    id: 14,
+    productName: "Apple AirPods Max - Space Gray",
+    price: 494,
+    productImage: maxImg
+  },
+  {
+    id: 15,
+    productName: "GoPro HERO12 Black - Action Camera",
+    price: 159,
+    productImage: goproImg
   },
 ]
 
