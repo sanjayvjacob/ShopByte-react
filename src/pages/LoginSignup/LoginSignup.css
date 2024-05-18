@@ -76,6 +76,6 @@ margin-top: 30px;
 }
 
 .loginsignup-agree input {
-  margin: 0; /* Removes default margin */
-  transform: translateY(-8px); /* Adjusts alignment */
+  margin: 0;
+  transform: translateY(-8px);
 }
