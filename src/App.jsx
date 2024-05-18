@@ -5,6 +5,7 @@ import Shop from "./pages/Shop/Shop"
 import Cart from "./pages/Cart/Cart"
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
+import LoginSignup from './pages/LoginSignup/LoginSignup'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' exact element={<Shop/>}/>
           <Route path='/cart' exact element={<Cart/>}/>
+          <Route path='/login' exact element={<LoginSignup/>}/>
         </Routes>
         <Footer/>
       </Router>

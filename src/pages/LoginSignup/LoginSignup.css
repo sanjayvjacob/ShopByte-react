@@ -1,0 +1,81 @@
+.loginsignup{
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.loginsignup-container{
+  width: 550px;
+  height: 520px;
+  background-color: #111;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 40px 60px;
+  border-radius: 5px;
+}
+
+.loginsignup-container h1{
+  margin: 20px 0px;
+  font-weight: 400;
+  color: #febd68;
+  font-size: 30px;
+}
+
+.loginsignup-field{
+display: flex;
+flex-direction: column;
+gap: 29px;
+margin-top: 30px;
+}
+
+.loginsignup-field input{
+  height: 40px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  outline: none;
+  color: #5c5c5c;
+  font-size: 18px;
+}
+
+.loginsignup-container button{
+  width: 430px;
+  height: 40px;
+  color: #111;
+  background: #febd68;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginsignup-login{
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.loginsignup-login span{
+  color: #ff4141;
+  font-weight: 600;
+}
+
+.loginsignup-agree{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.loginsignup-agree input {
+  margin: 0; /* Removes default margin */
+  transform: translateY(-8px); /* Adjusts alignment */
+}
