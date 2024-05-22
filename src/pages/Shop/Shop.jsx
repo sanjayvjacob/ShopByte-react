@@ -16,7 +16,7 @@ const Shop = () => {
       <Filter priceRange={priceRange} handleChange={handleChange} />
       <div className='products'>
         {Products.map((product, index) => {
-          return <Product key={index} data={product} />;
+          return <Product key={index} data={product} />
         })}
       </div>
     </div>

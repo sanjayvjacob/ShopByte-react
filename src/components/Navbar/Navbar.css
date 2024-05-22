@@ -65,6 +65,10 @@
   background: #ffd812;
 }
 
+.cartIcon{
+  color: #febd68;
+}
+
 .nav-cart-count{
   width: 22px;
   height: 22px;
@@ -79,18 +83,92 @@
   color: #111;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
+@media(max-width:1280px) {
+
+  .navbar{
+    padding: 0 20px;
   }
 
-  .links {
-    margin: 20px 0;
+  .shopTitle {
+    font-size: 25px;
+    padding: 10px;
   }
 
-  .links a {
-    margin: 10px 0;
+  .searchInput{
+    width: 493px;
+    height: 40px;
+  }
+
+  .nav-login-cart button{
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+@media(max-width:1024px) {
+
+  .navbar{
+    padding: 0 10px;
+  }
+
+  .shopTitle {
     font-size: 20px;
+    padding: 5px;
+  }
+
+  .searchInput{
+    width: 393px;
+    height: 40px;
+  }
+
+  .nav-login-cart button{
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+@media(max-width:800px) {
+  .shopTitle {
+    font-size: 20px;
+  }
+
+  .searchInput{
+    width: 200px;
+    height: 30px;
+  }
+
+  .searchBtn{
+    width: 40px;
+    height: 30px;
+  }
+
+  .nav-login-cart button{
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+@media(max-width:500px) {
+  .shopTitle {
+    font-size: 20px;
+  }
+
+  .searchInput{
+    width: 100px;
+    height: 30px;
+  }
+
+  .searchBtn{
+    width: 40px;
+    height: 30px;
+  }
+
+  .nav-login-cart button{
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
   }
 }
